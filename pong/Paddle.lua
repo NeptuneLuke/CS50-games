@@ -1,7 +1,5 @@
 --[[
-    GD50 2018
-    Pong Remake
-
+   
     Original Author: Colton Ogden
     cogden@cs50.harvard.edu
 
