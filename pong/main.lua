@@ -110,6 +110,10 @@ end
 --[[
     Runs every frame, with "dt" being deltaTime, the time in seconds passed 
     since the last frame, which LÖVE2D supplies us.
+    Multiplying this by any changes we wish to make in our game will allow our
+    game to perform consistently across all hardware; otherwise, any
+    changes we make will be applied as fast as possible and will vary
+    across system hardware.
 ]]
 function love.update(dt)
     
